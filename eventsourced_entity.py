@@ -12,8 +12,8 @@ from akkaserverless.event_sourced_context import EventSourcedCommandContext
 from akkaserverless.event_sourced_entity import EventSourcedEntity
 from akkaserverless.value_context import ValueEntityCommandContext
 from akkaserverless.value_entity import ValueEntity
-from thing_domain_pb2 import (ThingState, DESCRIPTOR as DOMAIN_DESCRIPTOR)
-from thing_api_eventsourced_entity_pb2 import (Thing, _GETTHINGCOMMAND, _THINGEVENTSOURCEDSERVICE, DESCRIPTOR as API_DESCRIPTOR)
+from domain_pb2 import (ThingState, DESCRIPTOR as DOMAIN_DESCRIPTOR)
+from eventsourced_entity_pb2 import (Thing, _GETTHINGCOMMAND, _THINGEVENTSOURCEDSERVICE, DESCRIPTOR as API_DESCRIPTOR)
 #ThingAdded
 
 import statistics

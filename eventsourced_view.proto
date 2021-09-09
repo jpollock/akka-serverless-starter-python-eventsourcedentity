@@ -5,7 +5,7 @@ import "google/protobuf/empty.proto";
 import "akkaserverless/annotations.proto";
 import "google/api/annotations.proto";
 
-import "thing_domain.proto";
+import "domain.proto";
 
 package com.example.eventsourced;
 
